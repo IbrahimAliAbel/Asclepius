@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Asclepius" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/accentColor</item>
+
+
+        <item name="actionBarStyle">@style/CustomActionBar</item>
+    </style>
+
+
+    <style name="CustomActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@color/primaryColor</item>
+        <item name="titleTextColor">@color/white</item>
+    </style>
+</resources>
